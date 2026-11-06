@@ -1,0 +1,15 @@
+{
+  "final_runs": 30,
+  "steps": 204800,
+  "seeds": [
+    42,
+    123,
+    2024,
+    7,
+    2025
+  ],
+  "selection_sha256": "166a128c068d2c7e372d8ce684dbc64f49e2d0c96a01c72a2b0a041a214c590d",
+  "test_evaluated": false,
+  "elapsed_seconds": 5970.987743582984,
+  "finished_at_utc": "2026-11-06T06:51:37.232245+00:00"
+}

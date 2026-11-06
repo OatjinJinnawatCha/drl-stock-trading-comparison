@@ -1,0 +1,88 @@
+{
+  "winners": {
+    "AMD_DuelingDDQN": {
+      "id": "lr3e-04_g0.95",
+      "params": {
+        "learning_rate": 0.0003,
+        "gamma": 0.95,
+        "batch_size": 256,
+        "hidden_size": 128,
+        "target_interval": 1000,
+        "exploration_fraction": 0.25,
+        "epsilon_final": 0.05
+      },
+      "validation_sharpe_mean": 0.3708781680899054
+    },
+    "OXY_DuelingDDQN": {
+      "id": "lr3e-04_g0.95",
+      "params": {
+        "learning_rate": 0.0003,
+        "gamma": 0.95,
+        "batch_size": 256,
+        "hidden_size": 128,
+        "target_interval": 1000,
+        "exploration_fraction": 0.25,
+        "epsilon_final": 0.05
+      },
+      "validation_sharpe_mean": 0.8022169988587949
+    },
+    "AMD_PPO": {
+      "id": "lr1e-03_g0.995",
+      "params": {
+        "learning_rate": 0.001,
+        "gamma": 0.995,
+        "batch_size": 256,
+        "hidden_size": 128,
+        "n_steps": 2048,
+        "n_epochs": 10,
+        "clip_range": 0.2,
+        "ent_coef": 0.01,
+        "gae_lambda": 0.95
+      },
+      "validation_sharpe_mean": 0.4211167384647824
+    },
+    "OXY_PPO": {
+      "id": "lr3e-04_g0.99",
+      "params": {
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "batch_size": 256,
+        "hidden_size": 128,
+        "n_steps": 2048,
+        "n_epochs": 10,
+        "clip_range": 0.2,
+        "ent_coef": 0.01,
+        "gae_lambda": 0.95
+      },
+      "validation_sharpe_mean": 0.932934904814766
+    },
+    "AMD_SAC-Discrete": {
+      "id": "lr3e-04_g0.95",
+      "params": {
+        "learning_rate": 0.0003,
+        "gamma": 0.95,
+        "batch_size": 256,
+        "hidden_size": 128,
+        "tau": 0.005,
+        "initial_alpha": 0.1,
+        "entropy_fraction": 0.7
+      },
+      "validation_sharpe_mean": 0.7479127752771733
+    },
+    "OXY_SAC-Discrete": {
+      "id": "lr1e-03_g0.99",
+      "params": {
+        "learning_rate": 0.001,
+        "gamma": 0.99,
+        "batch_size": 256,
+        "hidden_size": 128,
+        "tau": 0.005,
+        "initial_alpha": 0.1,
+        "entropy_fraction": 0.7
+      },
+      "validation_sharpe_mean": 0.671105709037512
+    }
+  },
+  "tune_ranking_sha256": "b1fa7e470260838a1d9e7a819c97e312f958cb26fbcc0b783cf74ee623be7cb1",
+  "frozen_at_utc": "2026-11-06T06:39:38.365507+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "AMD_DuelingDDQN": 123,
+  "AMD_PPO": 123,
+  "AMD_SAC-Discrete": 123,
+  "OXY_DuelingDDQN": 2024,
+  "OXY_PPO": 2025,
+  "OXY_SAC-Discrete": 42
+}
